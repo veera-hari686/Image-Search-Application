@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.imageList_container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  background-color: black;
+  padding: 10px;
+}
+.single_image {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.imageList__container .imageList__image {
+  width: 300px;
+  height: 200px;
+}
